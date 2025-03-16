@@ -19,6 +19,28 @@ group = mod_group_id
 
 repositories {
     mavenLocal()
+    maven { url 'https://maven.blamejared.com' }
+    maven {
+        name = 'GeckoLib'
+        url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+        content {
+            includeGroup("software.bernie.geckolib")
+        }
+    }
+    maven {
+        url "https://www.cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+    maven {
+        name = "Forge"
+        url = "https://maven.minecraftforge.net"
+    }
+    maven {
+        name = "Illusive Soulworks maven"
+        url = "https://maven.theillusivec4.top/"
+    }
 }
 
 base {
@@ -134,6 +156,11 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+    implementation "com.hollingsworth.ars_nouveau:ars_nouveau-${minecraft_version}:${ars_version}"
+    implementation "software.bernie.geckolib:geckolib-neoforge-${minecraft_version}:${gecko_version}"
+    implementation "curse.maven:jade-324717:${jade_id}"
+    implementation 'com.github.glitchfiend:TerraBlender-neoforge:' + minecraft_version + '-' + terrablender_version
+    implementation "top.theillusivec4.curios:curios-neoforge:${curios_version}+1.21.1"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

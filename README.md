@@ -1,25 +1,12 @@
+# Ars NumericHUD
+Available on:
+- Curseforge
+- Modrinth
 
-Installation information
-=======
+## What does it do?
+Ars NumericHUD is a fully client-side mod that adds numbers to your mana bar to indicate how much mana you have, and also adds tooltips to the glyphs to show how much mana they use.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
-
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+## Special thanks to:
+- [Moonwolf](https://legacy.curseforge.com/members/lunalycan287) of [Ars EnderStorage](https://legacy.curseforge.com/minecraft/mc-mods/ars-enderstorage), for the original concept and design of this feature.
+- [Sarenor](https://legacy.curseforge.com/members/sarenor) and [Alexth99](https://legacy.curseforge.com/members/alexth99) of [Ars Instrumentum]() for updating and maintaining the feature in their mod.
+- [Bailey](https://legacy.curseforge.com/members/baileyholl2) for developing Ars Nouveau
