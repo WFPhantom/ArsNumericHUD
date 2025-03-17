@@ -1,6 +1,6 @@
 # Ars NumericHUD | [![][cf-shield]][cf-link] [![][mr-shield]][mr-link]
 
-Ars NumericHUD is a fully client-side Ars addon that shows your mana with numbers, and adds tooltips to glyphs showing their mana usage.
+Ars NumericHUD is a client-side Ars addon that shows your mana with numbers, and adds tooltips to glyphs showing their mana usage.
 ## Special thanks to:
 - [Moonwolf](https://legacy.curseforge.com/members/lunalycan287) of [Ars EnderStorage](https://legacy.curseforge.com/minecraft/mc-mods/ars-enderstorage), for the original concept and design of this feature.
 - [Sarenor](https://legacy.curseforge.com/members/sarenor) and [Alexth99](https://legacy.curseforge.com/members/alexth99) of [Ars Instrumentum](https://legacy.curseforge.com/minecraft/mc-mods/ars-instrumentum) for updating and maintaining the feature in their mod.
