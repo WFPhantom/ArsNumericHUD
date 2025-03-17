@@ -5,11 +5,9 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.api.distmarker.Dist;
-import net.neoforged.api.distmarker.OnlyIn;
 import net.neoforged.neoforge.client.event.ScreenEvent;
 
-@Mod(ArsNumericHUD.MODID)
-@OnlyIn(Dist.CLIENT)
+@Mod(value = ArsNumericHUD.MODID, dist = Dist.CLIENT)
 @EventBusSubscriber
 public class ArsNumericHUD
 {

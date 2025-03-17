@@ -2,8 +2,6 @@
   "required": true,
   "package": "com.wfphantom.arsnumerichud.mixins",
   "compatibilityLevel": "JAVA_21",
-  "refmap": "arsnumerichud.refmap.json",
-  "mixins": [],
   "client": ["GlyphCostMixin"],
   "minVersion": "0.8"
 }
